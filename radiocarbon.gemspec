@@ -14,5 +14,4 @@ Gem::Specification.new do |s|
     "source_code_uri": "https://github.com/joeroe/ruby-radiocarbon"
     "bug_tracker_uri": "https://github.com/joeroe/ruby-radiocarbon/issues"
   }
-  s.add_runtime_dependency "distribution"
 end
