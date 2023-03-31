@@ -1,4 +1,5 @@
 module Radiocarbon
-  require 'radiocarbon/date.rb'
+  require 'radiocarbon/c14_date.rb'
   require 'radiocarbon/cal_date.rb'
+  require 'radiocarbon/curves.rb'
 end
