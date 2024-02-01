@@ -5,6 +5,8 @@
 
 A Ruby gem for fast radiocarbon calibration.
 
+Full documentation can be found [at rubydoc.info](https://rubydoc.info/github/joeroe/ruby-radiocarbon).
+
 ## Usage
 
 As a Ruby library:
