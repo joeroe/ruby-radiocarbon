@@ -1,5 +1,4 @@
 name: Tests
-description: Run tests and upload coverage report to coveralls
 on: [ push, pull_request ]
 
 jobs:
