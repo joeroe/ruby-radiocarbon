@@ -1,24 +1,9 @@
 class Radiocarbon::C14Date
+  attr_accessor :age, :error
 
   def initialize(age, error)
     @age = age
     @error = error
-  end
-
-  def age
-    @age
-  end
-
-  def age=(value)
-    @age = value
-  end
-
-  def error
-    @error
-  end
-
-  def error=(value)
-    @error = value
   end
 
   def dnorm(x, add_error = 0)

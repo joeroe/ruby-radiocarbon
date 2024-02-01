@@ -1,4 +1,5 @@
 class Radiocarbon::CalDate
+  attr_accessor :curve, :c14_date
 
   def initialize(c14_date, curve = "IntCal20")
     @c14_date = c14_date
@@ -8,22 +9,6 @@ class Radiocarbon::CalDate
     else
       @curve = nil # or raise error?
     end
-  end
-
-  def curve
-    @curve
-  end
-
-  def curve=(value)
-    @curve = value
-  end
-
-  def c14_date
-    @c14_date
-  end
-
-  def c14_date=(value)
-    @c14_date = value
   end
 
   def pdist(min_p = 1e-5)
