@@ -1,5 +1,12 @@
+##
+# Represents a calibrated radiocarbon dates.
 class Radiocarbon::CalDate
-  attr_accessor :curve, :c14_date
+
+  # [String] Name of the calibration curve used, see {Radiocarbon::CURVES}
+  attr_accessor :curve
+
+  # [C14Date] Uncalibrated radiocarbon date
+  attr_accessor :c14_date
 
   def initialize(c14_date, curve = "IntCal20")
     @c14_date = c14_date
@@ -11,6 +18,10 @@ class Radiocarbon::CalDate
     end
   end
 
+  # Generates the probability distribution of the calibrated age over the
+  # entire calibration curve.
+  #
+  # @min_p [Double] Threshold below which probabilities are treated as zero.
   def pdist(min_p = 1e-5)
     cd = curve_data
 

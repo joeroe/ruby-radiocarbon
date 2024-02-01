@@ -6,3 +6,9 @@ group :development, :test do
   gem 'simplecov',      require: false
   gem 'simplecov-lcov', require: false
 end
+
+group :development do 
+  gem 'webrick'
+  gem 'yard'
+end
+
