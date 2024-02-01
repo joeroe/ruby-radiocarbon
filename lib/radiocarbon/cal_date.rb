@@ -7,7 +7,7 @@ class Radiocarbon::CalDate
     if Radiocarbon::CURVES.include?(curve.upcase)
       @curve = curve
     else
-      @curve = nil # or raise error?
+      raise "'#{curve}' is not a supported calibration curve"
     end
   end
 

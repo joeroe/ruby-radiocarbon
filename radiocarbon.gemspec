@@ -1,17 +1,20 @@
-Gem::Specification.new do |s|
-  s.name        = "radiocarbon"
-  s.version     = "0.0.0.9000"
-  s.summary     = "Calibrate radiocarbon dates"
-  s.description = ""
-  s.authors     = ["Joe Roe"]
-  s.email       = "joeroe@hey.com"
-  s.files       = ["lib/radiocarbon.rb", 
-                   "lib/radiocarbon/*.rb",
-                   "lib/radiocarbon/curves/*.rb]
-  s.homepage    = "https://rubygems.org/gems/radiocarbon"
-  s.license     = "MIT"
-  s.metadata    = {
-    "source_code_uri": "https://github.com/joeroe/ruby-radiocarbon"
-    "bug_tracker_uri": "https://github.com/joeroe/ruby-radiocarbon/issues"
+# frozen_string_literal: true
+require 'rake'
+
+Gem::Specification.new do |gem|
+  gem.name        = 'radiocarbon'
+  gem.version     = '0.0.0.9000'
+  gem.summary     = 'Radiocarbon calibration'
+  gem.description = 'Fast calibration of radiocarbon dates.'
+  gem.authors     = ['Joe Roe']
+  gem.email       = 'joeroe@hey.com'
+  gem.files       = FileList['lib/radiocarbon.rb', 
+                   'lib/radiocarbon/*.rb',
+                   'lib/radiocarbon/curves/*.rb'].to_a
+  gem.homepage    = 'https://rubygems.org/gems/radiocarbon'
+  gem.license     = 'MIT'
+  gem.metadata    = {
+    'source_code_uri' => 'https://github.com/joeroe/ruby-radiocarbon',
+    'bug_tracker_uri' => 'https://github.com/joeroe/ruby-radiocarbon/issues'
   }
 end
