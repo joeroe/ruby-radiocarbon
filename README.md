@@ -2,10 +2,26 @@
 
 ![tests](https://github.com/joeroe/ruby-radiocarbon/actions/workflows/tests.yml/badge.svg)
 [![test coverage](https://coveralls.io/repos/github/joeroe/ruby-radiocarbon/badge.svg?branch=main)](https://coveralls.io/github/joeroe/ruby-radiocarbon?branch=main)
+![latest release on rubygems.org](https://img.shields.io/gem/v/radiocarbon)
+![downloads from rubygems.org](https://img.shields.io/gem/dt/radiocarbon)
 
 A Ruby gem for fast radiocarbon calibration.
 
 Full documentation can be found [at rubydoc.info](https://rubydoc.info/github/joeroe/ruby-radiocarbon).
+
+## Installation
+
+Install the latest release from [https://rubygems.org/gems/radiocarbon](RubyGems):
+
+```
+gem install radiocarbon
+```
+
+Or by add it to your project's Gemfile:
+
+```
+gem 'radiocarbon', '~> 0.1.0'
+```
 
 ## Usage
 
