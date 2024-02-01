@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.21.2)
+    rake (13.1.0)
+    simplecov-lcov (0.8.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  minitest
+  rake
+  simplecov-lcov (~> 0.8.0)
+
+BUNDLED WITH
+   2.4.6
