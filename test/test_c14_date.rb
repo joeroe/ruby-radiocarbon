@@ -1,6 +1,3 @@
-require "radiocarbon"
-require "minitest/autorun"
-
 class TestC14Date < Minitest::Test
 
   def setup
