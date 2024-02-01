@@ -1,4 +1,4 @@
-# ruby-radiocarbon
+# radiocarbon
 
 ![latest release on rubygems.org](https://img.shields.io/gem/v/radiocarbon)
 ![downloads from rubygems.org](https://img.shields.io/gem/dt/radiocarbon)
@@ -7,11 +7,11 @@
 
 A Ruby gem for fast radiocarbon calibration.
 
-Full documentation can be found [at rubydoc.info](https://rubydoc.info/github/joeroe/ruby-radiocarbon).
+Full documentation can be found [at RubyDoc](https://rubydoc.info/github/joeroe/ruby-radiocarbon).
 
 ## Installation
 
-Install the latest release from [https://rubygems.org/gems/radiocarbon](RubyGems):
+Install the latest release [from RubyGems](https://rubygems.org/gems/radiocarbon):
 
 ```
 gem install radiocarbon
