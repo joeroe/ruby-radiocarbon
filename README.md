@@ -1,8 +1,8 @@
 # radiocarbon
 
-![latest release on rubygems.org](https://img.shields.io/gem/v/radiocarbon)
-![downloads from rubygems.org](https://img.shields.io/gem/dt/radiocarbon)
-![tests](https://github.com/joeroe/ruby-radiocarbon/actions/workflows/tests.yml/badge.svg)
+[![latest release on rubygems.org](https://img.shields.io/gem/v/radiocarbon)](https://rubygems.org/gems/radiocarbon)
+[![downloads from rubygems.org](https://img.shields.io/gem/dt/radiocarbon)](https://rubygems.org/gems/radiocarbon)
+[![tests](https://github.com/joeroe/ruby-radiocarbon/actions/workflows/tests.yml/badge.svg)](https://github.com/joeroe/ruby-radiocarbon/actions/workflows/tests.yml)
 [![test coverage](https://coveralls.io/repos/github/joeroe/ruby-radiocarbon/badge.svg?branch=main)](https://coveralls.io/github/joeroe/ruby-radiocarbon?branch=main)
 
 A Ruby gem for fast radiocarbon calibration.
