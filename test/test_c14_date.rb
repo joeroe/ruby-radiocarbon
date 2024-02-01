@@ -16,4 +16,8 @@ class TestC14Date < Minitest::Test
     assert_kind_of Radiocarbon::CalDate, @c14_date.calibrate
   end
 
+  def test_fail
+    assert_equal 1, 2
+  end
+
 end
