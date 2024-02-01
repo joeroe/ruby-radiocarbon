@@ -1,4 +1,4 @@
-# radiocarbon
+# ruby-radiocarbon
 
 [![latest release on rubygems.org](https://img.shields.io/gem/v/radiocarbon)](https://rubygems.org/gems/radiocarbon)
 [![downloads from rubygems.org](https://img.shields.io/gem/dt/radiocarbon)](https://rubygems.org/gems/radiocarbon)
