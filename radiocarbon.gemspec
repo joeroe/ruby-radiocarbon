@@ -3,7 +3,7 @@ require 'rake'
 
 Gem::Specification.new do |gem|
   gem.name        = 'radiocarbon'
-  gem.version     = '0.0.0.9000'
+  gem.version     = '0.1.0'
   gem.summary     = 'Radiocarbon calibration'
   gem.description = 'Fast calibration of radiocarbon dates.'
   gem.authors     = ['Joe Roe']
