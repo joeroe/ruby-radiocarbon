@@ -13,7 +13,9 @@ SimpleCov.formatters = SimpleCov::Formatter::MultiFormatter.new(
   ]
 )
 
-SimpleCov.start
+SimpleCov.start do
+  add_filter '/test/'
+end
 
 require 'radiocarbon'
 require 'minitest/autorun'
